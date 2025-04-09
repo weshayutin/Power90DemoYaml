@@ -1,7 +1,7 @@
 apiVersion: velero.io/v1
 kind: Restore
 metadata:
-  name: cirros-test-pv-3
+  name: restore-cirros-test-pv-3
   namespace: openshift-adp
 spec:
   backupName: backup-cirros-test-pv-all
